@@ -309,18 +309,18 @@ font-family: 'Port Lligat Sans', sans-serif;
 /*COPY*/
 
 .copy{
-  width: 100%;
   height: 60px;
   line-height: 60px;
   background-color: #204571;
-  text-align: center;
   font-family: 'Pontano Sans', sans-serif;
   font-size: 18px;
   color: #FFF;
 }
-.copy p{
-  margin: 0;
+.text_copy{
+  margin: 0 auto;
 }
+
+
 
 /*ANIMAÇÃO DE ENTRADA*/
 [data-slide]{
