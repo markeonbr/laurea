@@ -102,7 +102,7 @@ nav ul li a:hover{
   color:#105aa2;
   font-size: 36px;
 }
-.conteudo_inicio h1:before,h1:after{
+.conteudo_inicio h1:before,.conteudo_inicio h1:after{
   content: "";
   display: block;
   width: 300px;
@@ -201,6 +201,7 @@ font-family: 'Port Lligat Sans', sans-serif;
   background-color: #FFC469;
   border-radius: 10px;
   height: 300px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 .widget_body p{
   padding: 0px 20px;
@@ -209,12 +210,60 @@ font-family: 'Port Lligat Sans', sans-serif;
   background-color: #7DB0D7;
 }
 
-
+/*font-family: 'Port Lligat Sans', sans-serif;
+font-family: 'Bubblegum Sans', cursive;
+font-family: 'Pontano Sans', sans-serif;*/
 
 /* SOBRE */
 #sobre{
   background-color: #6890BA;
+  font-family: 'Port Lligat Sans', sans-serif;
 }
+.sobre_titulo{
+  text-align: center;
+  font-size: 36px;
+  color: #FFF;
+  padding: 20px ;
+}
+.sobre_titulo h1:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FFF;
+  margin: 2px auto;
+}
+.sobre_texto{
+  text-align: center;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+}
+#sobre .container .row{
+  padding: 60px;
+}
+#sobre .container .row .col h1{
+  
+  font-size: 36px;
+  color: #FFF;
+
+}
+#sobre .container .row .col h1::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FFF;
+  margin: 2px ;
+}
+#sobre .container .row .col ul{
+  color: #FFF;
+}
+#sobre .container .row .col ul li{
+  padding: 15px;
+  font-size: 24px;
+}
+
+
 /* CONTATO */
 #contato{
   background-color: #204571;
